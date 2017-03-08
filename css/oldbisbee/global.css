@@ -1,0 +1,84 @@
+@import url("stereo/normalize.css");
+@import url("stereo/plugins/jquery.fancybox-1.3.1.css");
+@import url("stereo/plugins/smoke.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+a{color:#333;text-decoration:underline;opacity:0.9}a:hover{opacity:1}
+.clear{clear:both}
+.float{float:left}
+html,button,input,select,textarea{color:#333;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+::-moz-selection{background:#fff76f;text-shadow:none}
+::selection{background:#fff76f;text-shadow:none}
+body{text-rendering:optimizeLegibility;background:#fff}
+body{font-size:1em;line-height:1.5}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+img{vertical-align:middle}
+fieldset{border:0;margin:0;padding:0}
+textarea{resize:vertical}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.clearfix{*zoom:1}
+.btn{border:0 none;border-radius:5px;font-weight:bold;color:#efefef;font-size:13px;padding:10px 13px;position:relative;outline:none;background:#303030}
+input{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+#content{margin-bottom:50px}
+#head,#content,#foot{width:1024px;margin:0 auto;position:relative}
+#head ul#nav,#head ul#subnav{list-style:none;margin:0}#head ul#nav li,#head ul#subnav li{display:inline-block}
+html,body{height:100%;margin:0;padding:0}
+.wrap{height:100%;margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-top:52px}
+body>.wrap{height:auto;min-height:100%}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+.main{padding-bottom:50px}
+.foot{position:relative;margin-top:-50px !important;height:50px}
+@font-face{font-family:'proxima_nova_rgregular';src:url('/media/etc/fonts/proximanova-regular-webfont.eot');src:url('/media/etc/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('/media/etc/fonts/proximanova-regular-webfont.woff') format('woff'),url('/media/etc/fonts/proximanova-regular-webfont.ttf') format('truetype'),url('/media/etc/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'proxima_nova_ltbold';src:url('/media/etc/fonts/proximanova-semibold-webfont.eot');src:url('/media/etc/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('/media/etc/fonts/proximanova-semibold-webfont.woff') format('woff'),url('/media/etc/fonts/proximanova-semibold-webfont.ttf') format('truetype'),url('/media/etc/fonts/proximanova-semibold-webfont.svg#proxima_nova_ltbold') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'proxima_nova_ltregular';src:url('/media/etc/fonts/proximanova-light-webfont.eot');src:url('/media/etc/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('/media/etc/fonts/proximanova-light-webfont.woff') format('woff'),url('/media/etc/fonts/proximanova-light-webfont.ttf') format('truetype'),url('/media/etc/fonts/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'proxima_nova_cn_ltregular';src:url('/media/etc/fonts/proximanovacond-light-webfont.eot');src:url('/media/etc/fonts/proximanovacond-light-webfont.eot?#iefix') format('embedded-opentype'),url('/media/etc/fonts/proximanovacond-light-webfont.woff') format('woff'),url('/media/etc/fonts/proximanovacond-light-webfont.ttf') format('truetype'),url('/media/etc/fonts/proximanovacond-light-webfont.svg#proxima_nova_cn_ltregular') format('svg');font-weight:normal;font-style:normal}body{font-family:"proxima_nova_rgregular",sans-serif;width:100%;height:100%}
+#content-container{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-top:52px}
+body#map{margin-top:-52px}
+.map-container{width:100%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-top:52px}
+#gmap.std{width:100%;height:100%;position:relative;box-shadow:0 3px 3px #ddd}#gmap.std.loading:after{content:' ';display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:#fff url('../img/loader-white.gif') center center no-repeat;opacity:0.8}
+#gmap{margin-top:52px}#gmap.map-home{height:60%}
+#gmap a img{display:none}
+#control{position:absolute;top:0;left:0;width:100%;height:52px;background:#1a1a1a;z-index:300}#control #logo{height:27px;width:auto;margin:13px 10px;opacity:0.25}
+#control #nav{position:absolute;top:0;right:70px;text-align:right;font-family:"proxima_nova_rgregular",sans-serif;text-transform:uppercase;list-style:none}#control #nav li{display:inline-block;margin-left:25px}#control #nav li a{color:#606060;text-decoration:none;letter-spacing:0.15em}
+#control #nav li.current a{color:#ddd}
+#control #phone-current{display:none}
+#control #search_button{position:absolute;top:12px;right:15px;border:0 none;width:30px;height:30px;background:url('../img/icon-search.png') center center no-repeat;background-size:cover;opacity:0.25}#control #search_button:hover{opacity:0.35}
+#control #search_button.active{opacity:1}
+#footer{height:50px;width:100%;background:#101010;color:#666;font-size:13px;overflow:hidden;margin:0}#footer .inner{padding:17px}
+#map #footer{display:none}
+.events-list{padding:0 25px}.events-list h2{font-size:38px;opacity:0.4}
+.events-list ul{margin-left:0;padding-left:0;list-style:none}.events-list ul li{margin-bottom:25px;border-bottom:1px solid #ddd;padding-bottom:25px}.events-list ul li .c1,.events-list ul li .c2,.events-list ul li .c3{display:inline-block;vertical-align:text-top}
+.events-list ul li .c1{width:60%;font-size:24px}
+.events-list ul li .c2{width:10%;opacity:0.6;font-size:18px}
+.events-list ul li .c3{width:28%;opacity:0.4;font-size:18px}
+.events-list ul li .description{width:85%;margin-top:5px;font-size:18px;display:block;opacity:0.6}
+.detail-background{width:100%;height:250px;background-color:#111;top:0;left:0}.detail-background div{width:100%;height:250px;background:center center no-repeat;background-size:cover;position:absolute}
+.business-detail-head{position:absolute;width:100%;height:250px;top:52px;left:0;color:#fff}.business-detail-head a{color:#eee;}
+.business-detail-head .data{position:absolute;bottom:25px;left:25px}
+.business-detail-head h2{font-size:45px;line-height:100%;background:#111;padding:10px 14px 10px 12px;display:inline-block;margin-bottom:15px}
+.business-detail-head h3{background:#111;padding:10px 12px;display:block;margin:0;line-height:100%}.business-detail-head h3 span{}
+.business-detail-head h4{line-height:100%;margin-top:15px;padding-top:0px;text-align:left}.business-detail-head h4 a{display:inline-block;margin-right:15px;text-decoration:none}.business-detail-head h4 a:hover{opacity:0.4}
+.business-description{opacity:0.9}.business-description .col{float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative}.business-description .col.col-left{width:60%;padding:25px;padding-right:10px}
+.business-description .col.col-right{width:40%;padding:25px}
+.business-description h3{margin:0;padding:0;font-size:20px;margin-bottom:20px;opacity:0.5}
+.business-description .description{margin-bottom:45px}
+.business-description .gallery{overflow:auto;margin-bottom:45px;margin-right:-30px}.business-description .gallery img{width:23%;float:left;margin:0 10px 10px 0}
+.business-description .detail-map-container{position:relative}
+.business-description .map{width:100%;height:300px;background:#101;margin-top:0}
+.business-description .map-static{display:block;width:100%;height:300px;background:#000;z-index:100 !important;position:absolute;top:0;left:0;opacity:0}
+#search_box{width:100%;height:100%;position:absolute;top:0;left:0;z-index:100;display:none}#search_box.visible{display:block}
+#search_box #search_bg{width:100%;height:100%;position:absolute;top:0;left:0;z-index:200;background:rgba(0,0,0,0.25)}
+#search_box #search_container{width:620px;margin:0 auto;margin-top:100px;text-align:center;z-index:10000;position:absolute;top:25px;left:50%;margin-left:-310px}
+#search_box input[type="text"]{font-family:"proxima_nova_rgregular",sans-serif;font-size:42px;border:0;background:#fff;color:#303030;padding:10px 18px;width:420px;vertical-align:middle;margin-right:10px;outline:none;border:2px solid #fff}#search_box input[type="text"]:focus{box-shadow:0 3px 6px #777}
+#search_box button{font-family:"proxima_nova_rgregular",sans-serif;background:#202020;color:#fff;border:0;border-radius:0;font-size:22px;padding:23px;vertical-align:middle;outline:none}#search_box button:focus{background:#111}
+.labels{min-width:100px;max-width:200px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:5px 6px;font-size:12px;line-height:120%;color:#333;font-family:"proxima_nova_rgregular",sans-serif;background:#fff;box-shadow:0 1px 3px #ddd}
+.labelsvisible .labels{opacity:0}
+.invisible{opacity:0}
+div.search-results{padding:0 15px 25px 15px}div.search-results h2{font-size:18px;padding-top:2px;margin-bottom:0;padding-left:8px;opacity:0.35;font-weight:normal}
+div.search-results ul{list-style:none;padding:0;border-top:1px solid #ccc;padding-top:15px}div.search-results ul li{font-size:22px;margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid #ccc;padding-left:10px}div.search-results ul li a{color:#000;text-decoration:none}div.search-results ul li a:hover{text-decoration:underline}
+div.search-results ul li span{display:block;opacity:0.75;font-size:90%}
+.home-content{padding:25px}.home-content .col{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:33%;float:left}.home-content .col h3{padding:0;margin:0;margin-bottom:5px;font-size:20px;opacity:0.5}
+.home-content .col ul{list-style:none;padding:0;margin:0;margin-bottom:35px;line-height:175%}.home-content .col ul li{display:block;font-size:15px}.home-content .col ul li a{color:#000;text-decoration:none}.home-content .col ul li a:hover{text-decoration:underline}
+.home-content .home-events ul li .date{display:inline-block;width:50px;opacity:0.5}
+.home-content .home-events ul li .title{display:inline-block}
+@media (max-width:1200px){}@media (max-width:980px){}@media (max-width:1024){}@media only screen and (min-device-width:768px) and (max-device-width:1024px){#search_box button{width:70px;height:70px;overflow:hidden;text-align:center;position:relative;vertical-align:auto}#search_box button span{position:relative;top:-28px;left:-5px;font-size:48px} #search_box input[type="text"]{border:0;border-radius:0} #control #phone-current{position:absolute;top:16px;right:65px;text-align:right;font-family:"proxima_nova_rgregular",sans-serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-transform:uppercase;list-style:none;color:#606060;letter-spacing:0.15em;padding:0 2px;display:block}#control #phone-current span{font-size:75%;opacity:0.7;position:relative;top:-2px} #control #nav{top:36px;right:60px;display:none}#control #nav.visible{display:block} #control #nav li{display:block;background:rgba(0,0,0,0.9);padding:15px;padding-right:28px;padding-left:28px;margin:0;border:0}}@media (max-width:500px){.business-detail-head{}.business-detail-head .data{bottom:15px;left:15px;right:15px} .business-detail-head h2{font-size:35px;line-height:130%;vertical-align:baseline;width:auto;background:rgba(0,0,0,0.8);padding:10px 14px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box} .business-detail-head h3{width:auto;background:rgba(0,0,0,0.8);line-height:140%;padding:10px 14px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.business-detail-head h3 span{display:none} .business-detail-head h3 a{display:block} .business-detail-head h4{}.business-detail-head h4 a{} .business-description .col{margin:0;float:none;}.business-description .col.col-left{width:100%;padding:15px !important;} .business-description .col.col-right{width:100%;padding:15px !important;} .business-description h3{font-size:22px;margin-bottom:10px} .business-description .description{font-size:22px;line-height:150%;margin-bottom:45px} .business-description .gallery{width:100%;overflow:hidden;margin-right:-40px;margin-bottom:25px}.business-description .gallery img{margin:0 14px 14px 0;width:22%} .business-description .detail-map-container{top:-20px} .business-description .map-static{display:block;width:100%;height:250px;background:#000;z-index:100 !important;position:absolute;top:0;left:0;opacity:0} .business-description #gmap{margin-top:0 !important} .business-description .map{height:250px;position:relative;margin-bottom:35px} #control #phone-current{position:absolute;top:16px;right:65px;text-align:right;font-family:"proxima_nova_rgregular",sans-serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-transform:uppercase;list-style:none;color:#606060;letter-spacing:0.15em;padding:0 2px;display:block}#control #phone-current span{font-size:75%;opacity:0.7;position:relative;top:-2px} #control #nav{top:36px;right:60px;display:none}#control #nav.visible{display:block} #control #nav li{display:block;background:rgba(0,0,0,0.9);padding:15px;padding-right:28px;padding-left:28px;margin:0;border:0} #footer{text-align:center}#footer .inner{padding:15px} .home-content{padding:15px}.home-content .col.col-1{width:50%;padding-right:35px} .home-content .col.col-2{width:50%} .home-content .col.col-3{width:100%;margin-bottom:95px} .home-content .col h3{padding:0;margin:0;margin-bottom:8px;font-size:28px;opacity:0.3} .home-content .col ul{margin-bottom:65px;line-height:inherit}.home-content .col ul li{font-size:25px;line-height:125%;margin-bottom:20px} div.search-results{padding:0;margin:0}div.search-results h2{font-size:22px;padding-left:15px} div.search-results ul{margin-bottom:0;padding-bottom:0}div.search-results ul li{font-size:25px;padding-left:15px}div.search-results ul li:last-child{margin-bottom:2px;border:0 none} div.search-results ul li a{color:#000;text-decoration:none}div.search-results ul li a:hover{text-decoration:underline} div.search-results ul li span{display:block;opacity:0.75;font-size:90%} #search_box #search_bg{background:rgba(0,0,0,0.6)} #search_box input[type="text"]{font-size:42px;background:#fff;color:#303030;padding:10px 18px;width:300px;border:0;border-radius:0}#search_box input[type="text"]:focus{box-shadow:0 3px 6px #777}}
